@@ -1,0 +1,66 @@
+pwd --> present working directory.
+ls --> list all files,folder.
+ls -al --> list everything including hidden files.
+
+Local git repo(.git) to Github.....
+Means that local to global repository.
+First, we have to create a Github account on Github.
+Suppose, we want to three .py files.
+First, we created it.
+Named as login.py,logout.py,cart.py files.
+As our main motto is to upload our files to Distributed Vesion Control System(DVCS) like Github then we have to create a local git repository.
+We can create our global or cloud git repository by using our user name, email, password.
+It should be vaild as git should know which user is doing these changes for keeping track of all the records.
+Now suppose, we made some changes to 3 .py files.
+As before pushing to Github we have to make available these 3 files to local git repo so we have to first instantiate git folder by some commands.
+Then make available these files to .git which is a local git repo by some commands.
+Then we have to confirm that by committing to .git repo.
+Then we can see see the status of .git folder by some commands.
+Can eveluate the diiderences that we made to a particular file by some commands.
+And also track all the records by log commands.
+Afte we are set to done with our local repo then we can push them to global repository which is Github in our case.
+We can do it by push commands.
+
+
+
+Commands...
+touch login.py logout.py cart.py.
+nano login.py.
+nano logout.py.
+nano cart.py.
+cat login.py.
+cat logout.py.
+cat cart.py.
+git status.
+git config --global user.name user_name.
+git config --global user.email email@gmail.com.
+git config --global user.password user_password.
+git config --global --list.
+git add login.py.
+git add .(means all files) .
+git diff login.py.
+git commit login.py -m "Message as per as user choice".
+git commit .(means all files) -m "Message as per as user choice".
+git log login.py.
+git log .(means all files) .
+git remote -v.
+git remote add origin "url_link" of Github Account Repo. which has already created on Github page.
+git push -u(means stream or Github) origin master.
+
+
+
+GitHub to Local repository.....
+First we have to make a repository on local machine where we want to store that Github repo.
+Then we have to clone the "url_link" of that cloud/Github repo by some commands. 
+Then its done.
+If we check our desired local repo then we can see that Github repo is stored on local machine.
+
+
+Commands...
+mkdir local_git.
+git clone "url_link".
+
+
+
+
+
